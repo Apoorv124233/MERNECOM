@@ -5,7 +5,7 @@ import express from 'express'
 //   userOrder,
 //   allOrders,
 // } from "../Controllers/payment.js";
-import { checkout,verify,userOrder,allOrders } from '../Controllers/Payment.js';
+import { checkout,verify,userOrder,allOrders } from '../Controllers/payment.js';
 // import { Authenticated } from '../Middlewares/Auth.js';
 import { Auth } from '../Middlewares/Authentication.js';
 
